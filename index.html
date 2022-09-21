@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <!-- ========= Line Awesome ======== -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- =====Animation scroll (AOS)======= -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--================= CSS ==============-->
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- NAVBAR Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+            <span class="h3 fw-bold d-black d-lg-none"> Rowland Ugiangbe</span>
+            <img src="./image/profile-img.jpg" class="d-none d-lg-block rounded-circle">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a> 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#services">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME -->
+      <section id="home" class="full-height px-lg-5">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <!-- Animation scroll libery AOS -->
+              <h1 class="display-4 fw-bold" data-aos="fade-up">I'M A <span class="text-brand">FRONTEND DEVELOPER</span> FROM LAGOS, NIGERIA.</h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">I am Rowland Ugiangbe, Front-end develop with high-tech experience & quality service that will inspire you to satisfaction.</p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+                <a href="#" class="link-custom">Call: (+234)-810-994-2450</a>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <!-- ?? Home -->
+
+      <!-- SERVICE -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4"  data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-bra">SERVICES</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+          <div class="row gy-4">
+            <div class="col-md-4"  data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-feather"></i>
+                </div>
+                <h4 class="mt-4 mb-2">UX Design</h4>
+                <p>I craft high-performing and delightful experience</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+            <div class="col-md-4"  data-aos="fade-up" data-aos-delay="300">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Branding</h4>
+                <p>I craft high-performing and delightful experience</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+            <div class="col-md-4"  data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-4 shadow-effect">
+                <div class="iconbox rounded-4">
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h4 class="mt-4 mb-2">Mobile Application</h4>
+                <p>I craft high-performing and delightful experience</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SERVICE -->
+
+      <!-- WORK  -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WORKS</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img src="./image/html-project.jpg" class="rounded-4">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Startup Landing Page</h4>
+                  <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever reed to put together.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img src="./image/html-project.jpg" class="rounded-4">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Startup Landing Page</h4>
+                  <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever reed to put together.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img src="./image/Angular-Projects.png" class="rounded-4">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Startup Landing Page</h4>
+                  <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever reed to put together.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-up" data-aos-delay="600">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img src="./image/Angular-Projects.png" class="rounded-4">
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Startup Landing Page</h4>
+                  <p>Innovation that exceeds expectations. Astra is a true template equiped with all the elements you could ever reed to put together.</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- ABOUT -->
+      <section id="about" class="full-height px-lg-5">
+        <div class="container">
+
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">ABOUT</h6>
+              <h4>My Education & Experience</h4>
+            </div>
+
+            <div class="row gy-5">
+              <div class="col-lg-6">
+
+                <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                  <div class="row gy-4">
+
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                      <div class="bg-base p-4 rounded-4 shadow-effect">
+                        <h5>BSc. Mathematics</h5>
+                        <p class="text-brand mb-2">Olabisi Onabanjo University (2007 - 2012)</p>
+                        <p class="mb-0">Ago-Iwoye, Ogun State, Nigeria.</p>
+                      </div>
+                    </div>
+
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                      <div class="bg-base p-4 rounded-4 shadow-effect">
+                        <h5>Project Design</h5>
+                        <p class="text-brand mb-2">International Training Centre of the ILO, Italy (ITC-ILO) (2021)</p>
+                        <p class="mb-0"> Online Certification Program</p>
+                      </div>
+                    </div>
+
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                      <div class="bg-base p-4 rounded-4 shadow-effect">
+                        <h5>Young Worker Training</h5>
+                        <p class="text-brand mb-2">Friedrich Ebert Stiftung (2020) </p>
+                        <p class="mb-0">Building Workers Power, Gender & Feminism, Trade Unions & Labour Market, Politics & Economy.</p>
+                      </div>
+                    </div>
+                    
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                      <div class="bg-base p-4 rounded-4 shadow-effect">
+                        <h5>First Aid Provider</h5>
+                        <p class="text-brand mb-2">American Heart Association (AHA) (2019) </p>
+                        <p class="mb-0">First Aid Basic, Medical emergencies, Environmental Emergencies, CPR & AED.</p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="col-lg-6">
+                <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                <div class="row gy-4">
+
+                  <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                      <h5>Frontend Developer</h5>
+                      <p class="text-brand mb-2">Afripoint Consults (July 2022 - Present)</p>
+                      <p class="mb-0">Ikeja, Lagos, Nigeria.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                      <h5>Project Coordinator</h5>
+                      <p class="text-brand mb-2">Health Emergency Initiative (August 2016 - June 2022)</p>
+                      <p class="mb-0">Humanitarian Services (Support to indigent/vulnerable patients)</p>
+                    </div>
+                  </div>
+
+                  <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bg-base p-4 rounded-4 shadow-effect">
+                      <h5>National Youth Service Corps (NYSC)</h5>
+                      <p class="text-brand mb-2">Ekiti State, Nigeria</p>
+                      <p class="mb-0">Subject Thought - Mathematics</p>
+                    </div>
+                  </div>
+                </div>       
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+      <!-- CONTACT -->
+      <section id="contact" class="full-height px-lg-5">
+        <div class="container">
+
+          <div class="row justify-content-center text-center" data-aos="fade-up">
+            <div class="col-lg-8 pb-4" data-aos="fade-up">
+              <h6 class="text-brand">CONTACT</h6>
+              <h1>Interested in working together? Let's talk </h1>
+            </div>
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
+              <form action="#" class="row g-lg-3 gy-3">
+                <div class="form-group col-md-6">
+                  <input type="text" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="form-group col-12">
+                  <input type="text" class="form-control" placeholder="Enter your subject">
+                </div>
+                <div class="form-group col-12">
+                  <textarea name="" rows="4" class="form-control" placeholder="Enter your message"></textarea>
+                </div>
+                <div class="form-group col-12 d-grid">
+                  <button type="submit" class="btn btn-brand">Contact me</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="py-5 px-lg-5">
+        <div class="container">
+          <div class="row gy-4 justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">Copyright text goes here</p>
+            </div>
+            <div class="col-auto">
+              <div class="social-icons">
+                <a href="#"><i class="lab la-twitter"></i></a>
+                <a href="#"><i class="lab la-instagram"></i></a>
+                <a href="#"><i class="lab la-dribbble"></i></a>
+                <a href="#"><i class="lab la-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <!--================== Animation scroll (AOS) ==============-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
